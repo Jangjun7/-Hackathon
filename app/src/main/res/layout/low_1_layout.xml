@@ -56,27 +56,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="5"
+        android:layout_weight="2"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/wrong_btn"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="오답"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_low_1_wrong"
+            android:text="오답"
             android:textSize="96sp" />
 
         <Button
             android:id="@+id/answer_btn"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="답"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_low_1_answer"
+            android:text="답"
             android:textSize="96sp" />
 
     </LinearLayout>
