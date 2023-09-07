@@ -65,6 +65,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="오답"
+            android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_low_1_wrong"
             android:textSize="96sp" />
 
@@ -74,6 +75,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="답"
+            android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_low_1_answer"
             android:textSize="96sp" />
 

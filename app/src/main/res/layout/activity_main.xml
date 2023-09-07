@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -31,6 +31,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/yeongdeoksnowcrab"
             android:text="시작"
+            android:background="@drawable/custom_ripple_effect"
             android:textSize="96sp" />
 
         <Button
@@ -40,6 +41,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/yeongdeoksnowcrab"
             android:text="종료"
+            android:background="@drawable/custom_ripple_effect"
             android:textSize="96sp" />
     </LinearLayout>
 

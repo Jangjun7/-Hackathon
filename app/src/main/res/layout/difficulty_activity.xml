@@ -38,8 +38,10 @@
 
     <Button
         android:id="@+id/low_btn"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
         android:fontFamily="@font/yeongdeoksnowcrab"
         android:text="초보(하)"
         android:textSize="96sp" />
@@ -52,8 +54,10 @@
 
     <Button
         android:id="@+id/medeum_btn"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
         android:fontFamily="@font/yeongdeoksnowcrab"
         android:text="중수(중)"
         android:textSize="96sp" />
@@ -66,8 +70,10 @@
 
     <Button
         android:id="@+id/high_btn"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
         android:fontFamily="@font/yeongdeoksnowcrab"
         android:text="고수(상)"
         android:textSize="96sp" />
