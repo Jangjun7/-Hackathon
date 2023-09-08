@@ -3,22 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/medium1"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#80DEEA"
-            android:fontFamily="@font/yeongdeoksnowcrab"
-            android:text="중1. 문제"
-            android:textSize="96sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,9 +39,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="#EF9A9A"
+        android:background="#00EF9A9A"
         android:fontFamily="@font/yeongdeoksnowcrab"
-        android:text="문제"
+        android:text="집에서 사용하던 세제가 다 떨어져 주문하려고 합니다. 어떤 세제를 골라야 적합할까요"
         android:textSize="96sp" />
 
     <LinearLayout
@@ -66,7 +57,7 @@
             android:layout_weight="1"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_medium_1_wrong"
-            android:text="오답"
+            android:text="액체 형태의세제"
             android:textSize="96sp" />
 
         <Button
@@ -76,7 +67,7 @@
             android:layout_weight="1"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_medium_1_answer"
-            android:text="답"
+            android:text="고체 형태의 세제"
             android:textSize="96sp" />
 
     </LinearLayout>

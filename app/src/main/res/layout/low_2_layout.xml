@@ -3,22 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/low2_back"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#80DEEA"
-            android:fontFamily="@font/yeongdeoksnowcrab"
-            android:text="초2. 문제"
-            android:textSize="96sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,10 +39,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="#EF9A9A"
+        android:background="#00EF9A9A"
         android:fontFamily="@font/yeongdeoksnowcrab"
-        android:text="문제"
-        android:textSize="96sp" />
+        android:text="2. 칫솔은 양치질을 하다보면 솔이 휘어져서 못 쓰게 된다. 이때 칫솔을 버려야 할 알맞은 답은?​ "
+        android:textSize="40sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,8 +57,8 @@
             android:layout_weight="1"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_low_2_wrong"
-            android:text="오답"
-            android:textSize="96sp" />
+            android:text="플라스틱으로 분류"
+            android:textSize="68sp" />
 
         <Button
             android:id="@+id/answer_btn"
@@ -76,8 +67,8 @@
             android:layout_weight="1"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_low_2_answer"
-            android:text="답"
-            android:textSize="96sp" />
+            android:text="일반 쓰레기"
+            android:textSize="68sp" />
 
     </LinearLayout>
 
