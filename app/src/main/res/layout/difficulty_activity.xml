@@ -3,85 +3,55 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@drawable/level_select"
+    android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/home_btn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="560dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/level_home" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#80DEEA"
-            android:fontFamily="@font/yeongdeoksnowcrab"
-            android:gravity="center"
-            android:text="난이도 선택!!"
-            android:textSize="96sp" />
-
-        <ImageButton
-            android:id="@+id/home_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:backgroundTint="#00FFFFFF"
-            app:srcCompat="@drawable/home" />
-
-    </LinearLayout>
-
-    <View
-        android:id="@+id/view5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="2" />
-
-    <Button
+    <android.widget.Button
         android:id="@+id/low_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@drawable/rounded_button"
+        android:layout_width="295dp"
+        android:layout_height="245dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="250dp"
+        android:background="@drawable/rounded_btn_blue_ripple"
         android:fontFamily="@font/yeongdeoksnowcrab"
-        android:text="초보(하)"
+        android:text="초급"
+        android:textColor="#FFFFFF"
         android:textSize="96sp" />
 
-    <View
-        android:id="@+id/view2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="2" />
-
-    <Button
-        android:id="@+id/medeum_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@drawable/rounded_button"
+    <android.widget.Button
+        android:id="@+id/medium_btn"
+        android:layout_width="295dp"
+        android:layout_height="245dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="250dp"
+        android:background="@drawable/rounded_btn_brown_ripple"
         android:fontFamily="@font/yeongdeoksnowcrab"
-        android:text="중수(중)"
+        android:text="중급"
+        android:textColor="#FFFFFF"
         android:textSize="96sp" />
 
-    <View
-        android:id="@+id/view3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="2" />
-
-    <Button
+    <android.widget.Button
         android:id="@+id/high_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@drawable/rounded_button"
+        android:layout_width="295dp"
+        android:layout_height="245dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="250dp"
+        android:background="@drawable/rounded_btn_red_ripple"
         android:fontFamily="@font/yeongdeoksnowcrab"
-        android:text="고수(상)"
+        android:text="고급"
+        android:textColor="#FFFFFF"
         android:textSize="96sp" />
-
-    <View
-        android:id="@+id/view4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="2" />
-
 </LinearLayout>

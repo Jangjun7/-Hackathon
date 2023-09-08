@@ -4,38 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/main"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="1000dp"
-        app:srcCompat="@drawable/title" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
         android:orientation="horizontal">
 
-        <Button
+        <android.widget.Button
             android:id="@+id/start_btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_width="275dp"
+            android:layout_height="245dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/rounded_btn_blue_ripple"
             android:fontFamily="@font/yeongdeoksnowcrab"
             android:text="시작"
-            android:background="@drawable/low_ripple_effect"
+            android:textColor="#FFFFFF"
             android:textSize="96sp" />
 
-        <Button
+        <android.widget.Button
             android:id="@+id/end_btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_width="275dp"
+            android:layout_height="245dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/rounded_btn_red_ripple"
             android:fontFamily="@font/yeongdeoksnowcrab"
             android:text="종료"
-            android:background="@drawable/low_ripple_effect"
+            android:textColor="#FFFFFF"
             android:textSize="96sp" />
     </LinearLayout>
 
