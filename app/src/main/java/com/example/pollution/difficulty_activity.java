@@ -19,7 +19,7 @@ public class difficulty_activity extends AppCompatActivity {
 
         home_btn = findViewById(R.id.home_btn);
         low_btn = findViewById(R.id.low_btn);
-        medium_btn = findViewById(R.id.medeum_btn);
+        medium_btn = findViewById(R.id.medium_btn);
         high_btn = findViewById(R.id.high_btn);
 
         home_btn.setOnClickListener(new View.OnClickListener() {
