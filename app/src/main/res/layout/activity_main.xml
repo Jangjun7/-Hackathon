@@ -25,7 +25,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/yeongdeoksnowcrab"
             android:text="시작"
-            android:background="@drawable/custom_ripple_effect"
+            android:background="@drawable/low_ripple_effect"
             android:textSize="96sp" />
 
         <Button
@@ -35,7 +35,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/yeongdeoksnowcrab"
             android:text="종료"
-            android:background="@drawable/custom_ripple_effect"
+            android:background="@drawable/low_ripple_effect"
             android:textSize="96sp" />
     </LinearLayout>
 

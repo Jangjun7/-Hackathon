@@ -23,9 +23,9 @@
 
         <ImageButton
             android:id="@+id/home_btn"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="3"
+            android:backgroundTint="#00FFFFFF"
             app:srcCompat="@drawable/home" />
 
     </LinearLayout>
