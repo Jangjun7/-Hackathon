@@ -19,16 +19,22 @@
 
             <ImageButton
                 android:id="@+id/back_btn"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="100dp"
+                android:backgroundTint="#00B8DFF8"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/back" />
 
             <ImageButton
                 android:id="@+id/home_btn2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="350dp"
+                android:layout_marginRight="60dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/home" />
         </LinearLayout>
 
@@ -37,38 +43,59 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0"
         android:background="#00EF9A9A"
         android:fontFamily="@font/yeongdeoksnowcrab"
-        android:text="유리는 모래 가운데 여러가지 광물들이 만들어낸 소재이다. 이런 유리 물품이 깨졌을 경우 어떻게 분류해야 할까"
-        android:textSize="96sp" />
+        android:text="Q3. 환경오염으로 인해 해수면의 온도가 상승하면서 북극의 빙하가 녹는 속도가 점점 빨라지고 있다. 그럼 북극 소멸 시점은 몇 년이나 앞당겨졌을까? ​ "
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="2"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <Button
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="555dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/image_rounded"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/h3" />
+
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/wrong_btn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/custom_ripple_effect"
+            android:layout_height="115dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/high_ripple_effect"
             android:onClick="OnClick_high_3_wrong"
-            android:text="오답"
-            android:textSize="96sp" />
+            android:text="10년"
+            android:textSize="60sp" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/answer_btn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/custom_ripple_effect"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/high_ripple_effect"
             android:onClick="OnClick_high_3_answer"
-            android:text="답"
-            android:textSize="96sp" />
+            android:text="15년"
+            android:textSize="60sp" />
 
     </LinearLayout>
 

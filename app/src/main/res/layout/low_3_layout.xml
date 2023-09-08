@@ -21,18 +21,20 @@
                 android:id="@+id/back_btn"
                 android:layout_width="120dp"
                 android:layout_height="100dp"
-                android:layout_marginLeft="40dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginRight="100dp"
-                android:backgroundTint="#B8DFF8"
+                android:backgroundTint="#00B8DFF8"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/back" />
 
             <ImageButton
                 android:id="@+id/home_btn2"
                 android:layout_width="120dp"
                 android:layout_height="100dp"
-                android:layout_marginLeft="330dp"
+                android:layout_marginLeft="350dp"
                 android:layout_marginRight="60dp"
-                android:backgroundTint="#B8DFF8"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/home" />
         </LinearLayout>
 
@@ -70,27 +72,27 @@
             android:scaleType="centerCrop"
             android:src="@drawable/low3" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/wrong_btn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="115dp"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="25dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/custom_ripple_effect"
+            android:background="@drawable/low_ripple_effect"
             android:onClick="OnClick_low_3_wrong"
             android:text="유리 재질로 분류"
             android:textSize="68sp" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/answer_btn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             android:layout_marginBottom="30dp"
-            android:background="@drawable/custom_ripple_effect"
+            android:background="@drawable/low_ripple_effect"
             android:onClick="OnClick_low_3_answer"
             android:text="일반 쓰레기에 분류"
             android:textSize="68sp" />
