@@ -3,22 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/medium3"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#80DEEA"
-            android:fontFamily="@font/yeongdeoksnowcrab"
-            android:text="중3. 문제"
-            android:textSize="96sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,9 +39,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="#EF9A9A"
+        android:background="#00EF9A9A"
         android:fontFamily="@font/yeongdeoksnowcrab"
-        android:text="문제"
+        android:text="화장실에 들어갔는데 휴지가 전부 떨어졌다.화장지를 사기 위해 마트에 갔는데 골라야할 적절한 휴지는 무엇일까"
         android:textSize="96sp" />
 
     <LinearLayout
@@ -66,7 +57,7 @@
             android:layout_weight="1"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_medium_3_wrong"
-            android:text="오답"
+            android:text="재생 펄프로 재활용한 휴지"
             android:textSize="96sp" />
 
         <Button
@@ -76,7 +67,7 @@
             android:layout_weight="1"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_medium_3_answer"
-            android:text="답"
+            android:text="대나무 소재로 만든 휴지"
             android:textSize="96sp" />
 
     </LinearLayout>

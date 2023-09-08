@@ -3,22 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/low1_back"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#80DEEA"
-            android:fontFamily="@font/yeongdeoksnowcrab"
-            android:text="초1. 문제"
-            android:textSize="96sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,10 +39,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="#EF9A9A"
+        android:background="#00EF9A9A"
         android:fontFamily="@font/yeongdeoksnowcrab"
-        android:text="문제"
-        android:textSize="96sp" />
+        android:text="Q1. 장류는 ( 된장, 고추장, 간장, 쌈장, 막장, 어장, 어육장) 등의 식재료를 발효해 만드는 조미료입니다.​  이런 장류를 버려야 할 때 올바른 답은?​ "
+        android:textSize="40sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,8 +57,8 @@
             android:layout_weight="1"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_low_1_wrong"
-            android:text="오답"
-            android:textSize="96sp" />
+            android:text="음식물 쓰레기"
+            android:textSize="68sp" />
 
         <Button
             android:id="@+id/answer_btn"
@@ -76,8 +67,8 @@
             android:layout_weight="1"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_low_1_answer"
-            android:text="답"
-            android:textSize="96sp" />
+            android:text="일반 쓰레기"
+            android:textSize="68sp" />
 
     </LinearLayout>
 
