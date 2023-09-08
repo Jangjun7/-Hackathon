@@ -19,16 +19,20 @@
 
             <ImageButton
                 android:id="@+id/back_btn"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="100dp"
+                android:backgroundTint="#B8DFF8"
                 app:srcCompat="@drawable/back" />
 
             <ImageButton
                 android:id="@+id/home_btn2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginRight="60dp"
+                android:backgroundTint="#B8DFF8"
                 app:srcCompat="@drawable/home" />
         </LinearLayout>
 
@@ -37,24 +41,43 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0"
         android:background="#00EF9A9A"
         android:fontFamily="@font/yeongdeoksnowcrab"
         android:text="Q1. 장류는 ( 된장, 고추장, 간장, 쌈장, 막장, 어장, 어육장) 등의 식재료를 발효해 만드는 조미료입니다.​  이런 장류를 버려야 할 때 올바른 답은?​ "
-        android:textSize="40sp" />
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="2"
-        android:orientation="horizontal">
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/image_rounded"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/low1" />
 
         <Button
             android:id="@+id/wrong_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_low_1_wrong"
             android:text="음식물 쓰레기"
@@ -63,8 +86,10 @@
         <Button
             android:id="@+id/answer_btn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="30dp"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_low_1_answer"
             android:text="일반 쓰레기"

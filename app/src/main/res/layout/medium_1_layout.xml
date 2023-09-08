@@ -19,16 +19,20 @@
 
             <ImageButton
                 android:id="@+id/back_btn"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="100dp"
+                android:backgroundTint="#B8DFF8"
                 app:srcCompat="@drawable/back" />
 
             <ImageButton
                 android:id="@+id/home_btn2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginRight="60dp"
+                android:backgroundTint="#B8DFF8"
                 app:srcCompat="@drawable/home" />
         </LinearLayout>
 
@@ -37,38 +41,59 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0"
         android:background="#00EF9A9A"
         android:fontFamily="@font/yeongdeoksnowcrab"
-        android:text="집에서 사용하던 세제가 다 떨어져 주문하려고 합니다. 어떤 세제를 골라야 적합할까요"
-        android:textSize="96sp" />
+        android:text="Q1. 집에서 사용하던 세제가 다 떨어져 주문하려고 합니다. 어떤 세제를 골라야 적합할까요?"
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="2"
-        android:orientation="horizontal">
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="630dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/image_rounded"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/md1" />
 
         <Button
             android:id="@+id/wrong_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_medium_1_wrong"
-            android:text="액체 형태의세제"
-            android:textSize="96sp" />
+            android:text="액체 형태의 세제"
+            android:textSize="68sp" />
 
         <Button
             android:id="@+id/answer_btn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="30dp"
             android:background="@drawable/custom_ripple_effect"
             android:onClick="OnClick_medium_1_answer"
             android:text="고체 형태의 세제"
-            android:textSize="96sp" />
+            android:textSize="68sp" />
 
     </LinearLayout>
 
